@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/housing-website/static/css/main.64b2ee68.css",
+    "main.js": "/housing-website/static/js/main.4135653f.js",
+    "static/media/img-12.jpg": "/housing-website/static/media/img-12.e0ab731ccd6e24b81705.jpg",
+    "static/media/Nigerian-Estate.webp": "/housing-website/static/media/Nigerian-Estate.f22abb0e8700603198fc.webp",
+    "static/media/idado-houseforsale-1280x720.jpg": "/housing-website/static/media/idado-houseforsale-1280x720.2c0f412679d510353f13.jpg",
+    "static/media/Real-Estate-2.webp": "/housing-website/static/media/Real-Estate-2.d81da31868de564e1dc7.webp",
+    "static/media/4f.jpg": "/housing-website/static/media/4f.51fbea961a10a996498d.jpg",
+    "static/media/image-of-house-in-lekki-870x420.jpg": "/housing-website/static/media/image-of-house-in-lekki-870x420.cd74247431e5fd9fc3d6.jpg",
+    "static/media/egondo.webp": "/housing-website/static/media/egondo.edb9d751fb6ed8e5b618.webp",
+    "static/media/house5.jpg": "/housing-website/static/media/house5.462966fc0177852a7370.jpg",
+    "static/media/house1.jpg": "/housing-website/static/media/house1.417ceef0ac09946d1fec.jpg",
+    "index.html": "/housing-website/index.html",
+    "main.64b2ee68.css.map": "/housing-website/static/css/main.64b2ee68.css.map",
+    "main.4135653f.js.map": "/housing-website/static/js/main.4135653f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64b2ee68.css",
+    "static/js/main.4135653f.js"
+  ]
+}
