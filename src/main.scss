@@ -1,0 +1,1126 @@
+
+    *,
+    *::after,
+    *::before {
+      padding: 0;
+      margin: 0;
+    
+              box-sizing: border-box;
+    }
+    
+    html {
+      font-size: 62.5%;
+      font-family: sans-serif;
+      @media only screen and (max-width: 62.5em) {
+       font-size: 50%;
+       
+          
+          }
+
+    
+     
+
+     
+
+    }
+    
+    body {
+      font-size: 1.5rem;
+      color: black;
+      line-height: 1.4;
+      font-family: sans-serif;
+      overflow-x: hidden;
+       
+     
+    }
+
+
+    
+    .main {
+      font-size: 1.5rem;
+      color: black;
+      font-family: sans-serif;
+      font-weight: 500;
+      overflow-x: hidden;
+     width: 100%;
+
+    
+    
+
+    
+    }
+
+    
+
+
+    .main-section {
+     width: 100%;
+    }
+
+
+    /////////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////// pop-up
+
+    .pop-up {
+      height: 100vh;
+      position: fixed;
+      width: 100vw;
+      z-index: 6;
+      top: 0;
+      
+      left: 0;
+      background-color: black;
+      display: none;
+      
+     
+
+
+      &__holder{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%  , -50%);
+
+
+
+      }
+      &__ul{
+        list-style: none;
+
+
+      }
+      &__li{
+        margin-top: 4rem;
+        color: #fff;
+        font-size: 3rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        width: 20rem;
+        background-image: linear-gradient(120deg,  transparent 0%, transparent 50%, #fff 50%);
+  background-size: 220%;
+  transition: all .4s;
+     &:hover {
+
+      background-position: 100%;
+      color:rgba(0, 128, 0, 0.916) ;
+      transform: translateX(1rem);
+
+     }
+      
+
+        text-align: center;
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+      &__{
+
+
+      }
+
+    }
+
+
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////// first-section
+
+    .first-section {
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+
+      @media only screen and (max-width: 31.25em) {
+        height: 50vh;
+       
+          
+          }
+
+      &__part1 {
+        height: 10vh;
+        width: 100vw;
+        background-color: #000;
+
+      }
+
+      &__link1 {
+        text-decoration: none;
+        color: #fff; 
+        &:hover {
+          color: red;
+        }
+      }
+
+      &__part1-holder{
+        height: 100%;
+        width: 100%;
+        display: flex;
+       align-items: center;
+
+    
+      }
+      &__h2{
+    margin-left: 4rem;
+    font-size: 2.3rem;
+    @media only screen and (max-width: 31.25em) {
+      font-size: 2rem;
+     
+        
+        }
+      }
+
+      &__h2-holder {
+        color: #fff;
+       
+        margin-right: auto;
+
+      }
+
+     
+
+      &__line {
+        width: 3.5rem;
+        height: 2px;
+        background-color: #fff;
+        position: relative;
+        top: 0%;
+        right:0%;
+        margin-top: .5rem;
+       
+        display: none;
+        @media only screen and (max-width: 45em) {
+          display: block;
+          
+             
+             }
+      
+      }
+    
+      &__line::before {
+        content: "";
+       background-color: #fff;
+       width: 3.5rem;
+        height: 2px;
+        margin-bottom: 1rem;
+        position: absolute;
+        top: .8rem;
+     
+        
+      }
+
+      &__line::after {
+        content: "";
+       background-color: #fff;
+       width: 3.5rem;
+      
+        height: 2px;
+        top: -.8rem;
+        position: absolute;
+       
+       
+        right: 0%;
+        
+      }
+
+
+
+
+
+
+      &__ul{
+        list-style: none;
+        margin-top: .5rem;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-weight: 550;
+ text-transform: capitalize; 
+
+ @media only screen and (max-width: 45em) {
+  display: none;
+}
+
+ 
+ 
+
+  }
+      &__li1{
+        font-size:2rem;
+        margin-left: 2rem;
+      
+      }
+      &__li2{
+        font-size:2rem;
+        margin-left: 2rem;
+      
+      }
+      &__part2{
+       
+        height: 90vh;
+        width: 100vw;
+    
+       padding-top: 20rem;
+       padding-left: 15rem;
+       background-image:linear-gradient(to right bottom, rgba(0, 0, 0, 0.381) ,rgba(0, 0, 0, 0.381)), 
+       url("../public/web-1/house5.jpg");
+       background-position: 90%;
+       background-size: cover;
+       @media only screen and (max-width: 31.25em) {
+        padding-top: 20%;
+        padding-left: 5%;
+        height: 40vh;
+      
+         
+         }
+         
+      &__part2-holder{
+     
+        height:100%;
+        width: 100%;
+      
+      
+      }
+      }
+      &__part2-h2{
+        font-size: 4rem;
+        color: whitesmoke;
+        font-weight: 600;
+        font-family: serif;
+     
+      }
+      &__part2-p{
+        color: red;
+        margin-top: 0rem;
+        font-size: 2.3rem;
+        font-weight: 600;
+      
+      }
+      &__button{
+      margin-top: 1rem;
+      color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    text-transform: capitalize;
+    padding: 1rem 3rem;
+      border: none;
+    background: red;
+    outline: none;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 1.5s;
+
+    &:hover {
+      background: white ;
+      color: red;
+    }
+   
+
+      }
+   
+
+    }
+
+
+
+    //////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////// second-section
+
+
+    .second-section {
+ height: 100vh;
+ width: 100vw;
+
+ 
+
+ @media only screen and (max-width: 45em) {
+height: fit-content;
+}
+
+
+
+   
+
+      &__holder{
+        height: 100%;
+        width: 100%;
+        padding: 10rem;
+        display: flex;
+        @media only screen and (max-width: 45em) {
+         display: block;
+         
+        }
+        @media only screen and (max-width: 31.25em) {
+         padding: 3rem;
+           }
+
+           
+      }
+      &__part1{
+      width: 50%;
+      @media only screen and (max-width: 45em) {
+      margin-bottom: 4rem;
+      width: 100%;
+
+     
+        
+       }
+     
+      }
+      &__part1-holder{
+        width: 100%;
+      
+      }
+      &__part1-p{
+        font-weight: 600;
+        color: red;
+        font-size: 2.5rem;
+        @media only screen and (max-width: 73.8125em ) {
+          font-size:2rem ;
+          
+        }
+      
+      }
+      &__part1-h2{
+         font-size: 6rem;
+         margin-bottom: 2rem;
+         @media only screen and (max-width: 73.8125em ) {
+          font-size:4.5rem ;
+          
+        }
+        @media only screen and (max-width: 31.25em) {
+          font-size: 3.5rem;
+ 
+        
+           
+           }
+      
+
+      }
+      &__ul{
+      list-style:none;
+      }
+      &__lli1{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        @media only screen and (max-width: 73.8125em ) {
+          font-size:1.5rem ;
+          
+        }
+      
+      
+      }
+      &__part2{
+        width: 50%;
+        @media only screen and (max-width: 45em) {
+         width: 100%;
+        
+         
+         }
+      
+      }
+      &__img{
+        height: 90%;
+
+        @media only screen and (max-width: 84.25em ) {
+          height: 60%;
+          
+        }
+
+        @media only screen and (max-width: 62.5em ) {
+          height: 50%;
+          
+        }
+        @media only screen and (max-width: 54.5em ) {
+          height: 40%;
+          
+        }
+        @media only screen and (max-width: 45em) {
+          height: 30%;
+          width: 100%;
+         }
+      
+      }
+      &__icon{
+        color: red;
+        margin-right: .5rem;
+      
+      }
+    
+
+    }
+
+    ////////////////////////////////////////////////////////////////////////
+    ////////////////// third-section
+
+    .third-section {
+      height: 100vh;
+      width: 100vw;
+      background-color: #000000;
+      color: #fff;
+      padding: 5rem;
+      @media only screen and (max-width: 45em) {
+        height: fit-content;
+        padding: 2rem;
+        }
+        @media only screen and (max-width: 31.25em) {
+          
+          padding: 0rem;
+          }
+
+      &__holder{
+        height: 100%;
+      width: 100%;
+      
+      }
+      &__h2{
+        text-align: center;
+        font-weight: 600;
+        font-size: 3rem;
+        color: #fff;
+        @media only screen and (max-width: 31.25em) {
+         font-size: 2rem;
+      padding-top: 1rem;
+
+       
+          
+          }
+
+      }
+      &__sub-h2{
+        text-align: center;
+        font-weight: 600;
+        font-size: 2rem;
+        color: #fff;
+        margin-bottom: 4rem;
+        @media only screen and (max-width: 31.25em) {
+          font-size: 1.5rem;
+          
+          }
+
+      }
+      &__main{
+
+      
+      }
+      &__main-holder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @media only screen and (max-width: 45em) {
+         display: block;
+          margin-top: 10rem;
+       
+          }
+      
+      }
+      &__main-part1{
+        height: 38rem;
+        width: 30rem;
+        border: 1px solid rgba(128, 128, 128, 0.507);
+        margin-right: 3rem;
+        border-radius: 1rem;
+        background-color: #fff;
+        color: #000;
+        @media only screen and (max-width: 45em) {
+          height: 50rem;
+          width: 80%;
+          margin-right: 0rem;
+          margin-left: 10rem;
+          margin-bottom: 10rem;
+          
+          }
+          @media only screen and (max-width: 31.25em) {
+            margin-left: 5rem;
+        margin-bottom: 5rem;
+            
+            }
+         
+  
+
+          
+  
+      
+      }
+      &__main-part1-holder{
+        text-align: center;
+        padding: 2rem;
+      
+      }
+      &__main-part1-card{
+        font-size: 5rem;
+        
+      
+      }
+      &__main-part1-h2{
+        margin-bottom: 2rem;
+        @media only screen and (max-width: 45em) {
+     margin-bottom: 5rem;
+          
+           }
+       
+      
+      }
+      &__main-part1-p{
+        margin-bottom: 3rem;
+        font-size: 2rem;
+        font-weight: 550;
+        @media only screen and (max-width: 45em) {
+          margin-bottom: 2rem;
+               
+                }
+      
+      }
+      &__main-part1-sub-p{
+        margin-bottom: 2rem;
+        @media only screen and (max-width: 45em) {
+          margin-bottom: 10rem;
+               
+                }
+      
+      }
+      &__main-part1-rate{
+        margin-bottom: 2rem;
+        @media only screen and (max-width: 45em) {
+          margin-bottom: 5rem;
+               
+                }
+      
+      }
+      &__main-part1-button{
+      width: 80%;
+      height: 4rem;
+      border-radius: .5rem;
+      text-transform: capitalize;
+      font-size: 2rem;
+      font-weight: 600;
+      background-color: red ;
+      border: none;
+      transition: all 1.5s;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.87);
+      }
+      }
+
+      
+
+
+
+    }
+
+
+    ///////////////////////////////////////////////////////////////////
+    /////////////  fourth-section
+
+    .fourth-section {
+      height: fit-content;
+      width: 100vw;
+      padding: 10rem;
+      @media only screen and (max-width: 31.25em) {
+        padding: 4rem;
+        
+           
+           }
+
+
+      
+      &__holder{
+        height: fit-content;
+      width: 100%;
+      
+      }
+      &__head-holder{
+        text-align: center;
+        margin-bottom: 6rem;
+        @media only screen and (max-width: 31.25em) {
+         margin-bottom: 2rem;
+ 
+        
+           
+           }
+      
+      }
+      &__head{
+      
+      }
+      &__main{
+        width: 100%;
+      
+      }
+      &__main-section{
+        display: flex;
+        
+      @media only screen and (max-width: 45em) {
+        display: block;
+      }
+      
+      }
+      &__part1{
+        width: 50%;
+        
+      @media only screen and (max-width: 45em) {
+        width: 100%;
+      }
+      
+      }
+      &__part1-holder{
+       
+      }
+      &__img1{
+        width: 90%;
+        height: 40rem;
+        background-image: url("../public/web-1/house1.jpg");
+        background-position: 100%;
+        background-size: cover;
+        border-radius: 1rem;
+        margin-bottom: 10rem;
+        @media only screen and (max-width: 31.25em) {
+          width: 100%;
+          
+             
+             }
+        
+        
+      
+      }
+      &__img2{
+
+        width: 90%;
+        height: 70rem;
+        background-image: url("../public/web-1/egondo.webp");
+        background-position: 100%;
+        background-size: cover;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        @media only screen and (max-width: 31.25em) {
+          width: 100%;
+          
+             
+             }
+        
+      
+      }
+      &__part1-sub{
+      text-align: center;
+      margin-top: 8rem;
+      width: 80%;
+      margin-bottom: 15.1rem;
+      
+      }
+      &__part1-sub-h2{
+     
+      
+      }
+      &__part1-sub-p{
+        font-size: 2rem;
+        font-size: 2rem;
+        letter-spacing: 2px;
+      
+      }
+      &__part2{
+      width: 50%;
+      
+      @media only screen and (max-width: 45em) {
+        width: 100%;
+      }
+      }
+      &__part2-holder{
+        padding-left: 1rem;
+      
+      }
+      &__part1-sub{
+      
+      }
+      &__part1-sub-h2{
+      
+      }
+      &__part1-sub-p{
+      
+      }
+      &__img3{
+        background-image: url("../public/web-1/Nigerian-Estate.webp");
+        background-position: 100%;
+        background-size: cover;
+        width: 90%;
+        height: 70rem;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+        @media only screen and (max-width: 31.25em) {
+         width: 100%;
+         
+            
+            }
+      
+      }
+      &__img4{
+        background-image: url("../public/web-1/4f.jpg");
+        background-position: 100%;
+        background-size: cover;
+        width: 90%;
+        height: 50rem;
+        border-radius: 1rem;
+        margin-bottom: 8rem;
+        @media only screen and (max-width: 31.25em) {
+          width: 100%;
+          
+             
+             }
+      
+      }
+      &__img5{
+       
+        background-image: url("../public/web-1/Real-Estate-2.webp");
+        background-position: 100%;
+        background-size: cover;
+        width: 90%;
+        height: 40rem;
+        border-radius: 1rem;
+        margin-bottom: 10rem;
+        @media only screen and (max-width: 31.25em) {
+          width: 100%;
+          
+             
+             }
+      
+      }
+      &__img6{
+        background-image: url("../public/web-1/idado-houseforsale-1280x720.jpg");
+        background-position: 100%;
+        background-size: cover;
+        width: 90%;
+        height: 50rem;
+        border-radius: 1rem;
+       
+        @media only screen and (max-width: 31.25em) {
+          width: 100%;
+          
+             
+             }
+      
+      }
+      &__img7{
+        background-image: url("../public/web-1/img-12.jpg");
+        background-position: 100%;
+        background-size: cover;
+        width: 90%;
+        height: 40rem;
+        border-radius: 1rem;
+        margin-bottom: 10rem;
+
+        @media only screen and (max-width: 31.25em) {
+          width: 100%;
+          
+             
+             }
+      }
+      &__img8{
+        background-image: url("../public/web-1/image-of-house-in-lekki-870x420.jpg");
+        background-position: 100%;
+        background-size: cover;
+        width: 90%;
+        height: 50rem;
+        border-radius: 1rem;
+       
+        @media only screen and (max-width: 31.25em) {
+          width: 100%;
+          
+             
+             }
+      }
+     
+
+    }
+
+    //////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////// fifth-section
+
+    .fifth-section {
+  
+     height: 50vh;
+     width: 100vw;
+     
+     text-align: center;
+     background-image:linear-gradient(to right bottom, rgba(128, 128, 128, 0.5) , rgba(128, 128, 128, 0.5)), 
+       url("../public/web-1/house5.jpg");
+     overflow: hidden;
+
+     @media only screen and (max-width: 31.25em) {
+     height: 30vh;
+
+    
+       
+       }
+      &__holder{
+      
+     padding-top: 8%;
+    
+        width: 100%;
+        height: 100%;
+      
+      }
+      &__h2{
+        font-size: 3rem;
+        font-weight: 600;
+        color: #fff;
+        
+
+      
+      }
+      &__p{
+        font-weight: 500;
+        color: #fff;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+      &__main{
+        
+        @media only screen and (max-width: 45em) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+  
+        
+           
+           }
+      }
+      &__input{
+      height: 4rem;
+      width: 25%;
+      margin-right: 2rem;
+      border: none;
+      padding-left: 3rem;
+      border-radius: .5rem;
+      @media only screen and (max-width: 45em) {
+      width: 70%;
+      
+
+      
+         
+         }
+     
+      }
+      &__button{
+        height: 4rem;
+        width: 12rem;
+        text-transform: capitalize;
+        border: none;
+        border-radius: .5rem;
+       margin-top: 1rem;
+        transition: all 1s;
+        background-color: rgba(255, 0, 0, 0.964);
+        
+        &:hover {
+          background-color: #fff;
+          cursor: pointer;
+        }
+      }
+      @media only screen and (max-width: 45em) {
+        margin-top: 2rem;
+
+      
+         
+         }
+     
+
+    }
+
+    /////////////////////////////////////////////////////////////////////////////////
+    //////////////////////////////////////////////  footer
+
+    .footer {
+      height: 60vh;
+     width: 100vw;
+     background-color: #000;
+     color:#fff;
+     padding-top: 10rem;
+     padding-left: 0rem;
+     padding-right: 10rem;
+     padding-bottom: 10rem;
+     
+     @media only screen and (max-width: 45em) {
+     height: fit-content;
+     padding-left: 10rem;
+    }
+
+    @media only screen and (max-width: 31.25em) {
+      padding-bottom: 18rem;
+  
+         
+        }
+
+      &__holder{
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        
+      @media only screen and (max-width: 45em) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 4rem;
+        grid-row-gap: 8rem;
+      }
+
+
+
+
+      }
+      &__part1{
+        width: 15%;
+
+        
+      @media only screen and (max-width: 45em) {
+        width: 40%;
+      }
+
+
+      
+      }
+      &__span {
+color: blue;
+   font-style: italic;
+ 
+      }
+      &__h2{
+        color: red;
+      margin-bottom: 2rem;
+      }
+      &__p{
+      margin-bottom: 2rem;
+      font-weight: 500;
+      font-size: 1.5rem;
+      }
+      &__num{
+        font-weight: 500;
+        font-size: 1.5rem;
+      }
+      &__ul{
+        list-style: none;
+      
+      }
+      &__li1{
+      margin-bottom: 2rem;
+      &:hover {
+        color: red;
+        cursor: pointer;
+      }
+      }
+      &__li2{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      font-weight: 600;
+      &:hover {
+        
+        cursor: pointer;
+      }
+      }
+      &__name{
+   text-align: center;
+   margin-top: 7rem;
+   text-transform:capitalize;
+   font-weight: 550;
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+      &__{
+      
+      }
+
+
+
+    }
