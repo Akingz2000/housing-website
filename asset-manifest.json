@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/housing-website/static/css/main.5064023b.css",
+    "main.css": "/housing-website/static/css/main.814c66dc.css",
     "main.js": "/housing-website/static/js/main.c0775996.js",
     "static/media/img-12.jpg": "/housing-website/static/media/img-12.e0ab731ccd6e24b81705.jpg",
     "static/media/Nigerian-Estate.webp": "/housing-website/static/media/Nigerian-Estate.f22abb0e8700603198fc.webp",
@@ -12,11 +12,11 @@
     "static/media/house5.jpg": "/housing-website/static/media/house5.462966fc0177852a7370.jpg",
     "static/media/house1.jpg": "/housing-website/static/media/house1.417ceef0ac09946d1fec.jpg",
     "index.html": "/housing-website/index.html",
-    "main.5064023b.css.map": "/housing-website/static/css/main.5064023b.css.map",
+    "main.814c66dc.css.map": "/housing-website/static/css/main.814c66dc.css.map",
     "main.c0775996.js.map": "/housing-website/static/js/main.c0775996.js.map"
   },
   "entrypoints": [
-    "static/css/main.5064023b.css",
+    "static/css/main.814c66dc.css",
     "static/js/main.c0775996.js"
   ]
 }
