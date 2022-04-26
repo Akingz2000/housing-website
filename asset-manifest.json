@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.1474f2a4.css",
-    "main.js": "./static/js/main.734f36c9.js",
+    "main.js": "./static/js/main.5d62a3e6.js",
     "static/media/img-12.jpg": "./static/media/img-12.e0ab731ccd6e24b81705.jpg",
     "static/media/Nigerian-Estate.webp": "./static/media/Nigerian-Estate.f22abb0e8700603198fc.webp",
     "static/media/idado-houseforsale-1280x720.jpg": "./static/media/idado-houseforsale-1280x720.2c0f412679d510353f13.jpg",
@@ -13,10 +13,10 @@
     "static/media/house1.jpg": "./static/media/house1.417ceef0ac09946d1fec.jpg",
     "index.html": "./index.html",
     "main.1474f2a4.css.map": "./static/css/main.1474f2a4.css.map",
-    "main.734f36c9.js.map": "./static/js/main.734f36c9.js.map"
+    "main.5d62a3e6.js.map": "./static/js/main.5d62a3e6.js.map"
   },
   "entrypoints": [
     "static/css/main.1474f2a4.css",
-    "static/js/main.734f36c9.js"
+    "static/js/main.5d62a3e6.js"
   ]
 }
